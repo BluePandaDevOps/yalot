@@ -1,0 +1,58 @@
+/* Header Styling */
+.header {
+    color: white;
+    padding: 10px 20px; /* Reduced padding */
+    text-align: left; /* Align text to the left */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  /* Tabs Container */
+  .tabs {
+    display: flex;
+    justify-content: flex-start; /* Align tabs to the left */
+    margin-top: 10px; /* Reduced margin */
+  }
+  
+  /* Individual Tab */
+  .tab {
+    padding: 8px 16px; /* Adjust padding for a tab-like feel */
+    cursor: pointer;
+    border: 1px solid transparent; /* Remove border to make it look less like a button */
+    border-bottom: 1px solid #3498DB; /* Border at the bottom for the tab */
+    border-radius: 3px 3px 0 0; /* Rounded corners at the top */
+    margin: 0 3px; /* Reduced margin */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    background-color: #2C3E50; /* Match the background color of the header */
+    color: white; /* Text color */
+    font-size: 14px; /* Font size */
+    line-height: 1.5; /* Line height for better vertical alignment */
+  }
+  
+  /* Active Tab */
+  .tab.active {
+    background-color: white; /* Background color of the active tab */
+    color: #2C3E50; /* Text color of the active tab */
+    border-bottom: 1px solid transparent; /* Remove border when active */
+  }
+  
+  /* Tab Content */
+  .tab-content {
+    flex: 1; /* Allow tab content to grow and fill available space */
+    margin-top: 10px; /* Reduced margin */
+    overflow: auto; /* Add scroll if content overflows */
+    color: #2C3E50; /* Text color of the active tab */
+  }
+  
+  /* Tab Pane */
+  .tab-pane {
+    display: none;
+    height: 100%; /* Ensure tab-pane takes full height */
+  }
+  
+  /* Active Tab Pane */
+  .tab-pane.active {
+    display: block;
+  }
+  

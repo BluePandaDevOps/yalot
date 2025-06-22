@@ -1,0 +1,51 @@
+/* Ensure html and body elements take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Apply box-sizing globally */
+* {
+  box-sizing: border-box;
+}
+
+.not-implemented {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use 100vh for full viewport height */
+  width: 100vw;  /* Use 100vw for full viewport width */
+  background-color:  rgb(247, 249, 252); /* Background color */
+  text-align: center;
+  font-family: Arial, sans-serif; /* Font family */
+  -webkit-font-smoothing: antialiased; /* Font smoothing */
+  unicode-bidi: isolate; /* Isolate text direction */
+}
+
+.icon {
+  fill: #f0d7a3; /* Ensure the color is not the same as the background */
+  width: 5rem;
+  height: 5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Dark navy text */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #7f8c8d; /* Grey text */
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

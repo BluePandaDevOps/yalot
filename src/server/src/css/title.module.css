@@ -1,0 +1,25 @@
+/* Title.module.css */
+:root {
+    --teal: #008080; /* Teal color for text */
+    --coral: #333333; /* Coral color for background */
+    --white: #FFFFFF;
+    --font-size-large: clamp(1.5rem, 2.5vw, 2.5rem); /* Responsive font size with a maximum limit */
+    --padding-medium: 1.2vh; /* Padding for titles */
+    --margin-large: 2vh; /* Margin for titles */
+  }
+  
+  /* Title Styling */
+  .pageTitle {
+    color: var(--white); /* Text color */
+    background-color: var(--coral); /* Background color */
+    padding: var(--padding-medium); /* Padding around the text */
+    margin: 0; /* Remove default margin */
+    width: 100vw; /* Full viewport width */
+    position: relative; /* Ensure positioning context */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: var(--font-size-large); /* Responsive font size */
+    text-align: center; /* Center-align the text */
+    font-weight: 700; /* Bold text for emphasis */
+    border-radius: 4px; /* Slightly rounded corners for the background */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+  }
