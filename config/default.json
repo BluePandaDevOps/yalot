@@ -1,0 +1,50 @@
+{
+    "PROJECT_NAME": "default",
+    "RUN": true,
+    "modules":
+    {
+        "input":
+        {
+        }
+    ,
+        "output":
+        {
+            "collection":
+            {
+                "sources": "all"
+            }
+        }
+    },
+    "CACHING": 
+    {
+        "USE_CACHING":true,
+        "CACHE_DIRECTORY_PATH": "data/cache_db",
+        "CACHE_FILE_NAME_CACHE": "cache",
+        "CACHE_FILE_NAME_HISTORY": "history",
+        "PREFIX_PROJECT_NAME_TO_CACHE_NAME": true,
+        "PREFIX_PROJECT_NAME_TO_HISTORY_NAME": true,
+        "CACHE_UNSUCCESSFUL_CONTENT_PATTERN": "error"
+    },
+    "SCOPE":
+    {
+        "SCOPE_DIRECTORY_PATH": "config/scope",
+        "SCOPE_FILE_NAME":"default.txt"
+    },
+    "EXPORT":
+    {
+        "DUMP_ALL_MODULES": true,
+        "DUMP_ALL_TABLES": true,
+        "DUMP_DIRECTORY_PATH": "data/export"
+    },    
+    "LOGGING":
+    {
+        "FILE_LOG_LEVEL": "DEBUG",
+        "CONSOLE_LOG_LEVEL": "INFO"
+    },
+    "DATABASE":
+    {
+        "DATABASE_DIRECTORY_PATH": "data/database"
+    },
+    "AGGRESSIVE_SCANS": true,
+    "CENSYS_SEARCH_QUOTA": "strict"
+}
